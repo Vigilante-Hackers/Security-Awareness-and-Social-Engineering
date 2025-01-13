@@ -15,62 +15,33 @@ Social engineering attacks exploit human behavior and trust to gain unauthorized
 
 ## 📂 Repository Structure
 
-### 1. **Educational Materials**
-- **Articles and Guides**: 
-  - Introduction to Social Engineering.
-  - Common Attack Vectors (Phishing, Spear Phishing, Pretexting, etc.).
-  - Psychological Principles Behind Social Engineering (Reciprocity, Authority, Scarcity, etc.).
-- **Presentations**: Slideshows for training sessions.
-- **Infographics**: Visual aids for quick reference.
+1. **[Educational Materials](Books/)**  
+   - Articles, guides, and infographics on social engineering and OSINT.  
+   - Training materials for individuals and organizations.
 
-### 2. **Simulated Scenarios**
-- **Phishing Email Examples**:
-  - Crafted emails demonstrating phishing and spear-phishing techniques.
-  - How to identify phishing attempts.
-- **Voice Phishing (Vishing)**:
-  - Sample scripts and scenarios.
-  - Audio examples of vishing attacks.
-- **Baiting and USB Drop**:
-  - Simulated baiting campaigns.
-  - Guidelines for testing employee awareness.
+2. **[OSINT Tools and Resources](OSINT-Tools/)**  
+   - Tools and scripts for gathering OSINT responsibly.  
+   - Guides for conducting OSINT ethically and mitigating exposure.
 
-### 3. **Tools and Scripts**
-- **Phishing Simulation Tools**:
-  - Python scripts for generating phishing emails.
-  - Templates for phishing websites (for educational and testing purposes).
-- **Reconnaissance Tools**:
-  - Git recon scripts for identifying exposed secrets and credentials.
-  - Guides on open-source intelligence (OSINT) gathering.
-- **Social Engineering Testing Framework**:
-  - Tools to conduct controlled social engineering exercises.
-
-### 4. **Best Practices**
-- Checklists for securing personal and organizational information.
-- Guidelines for creating a security-aware culture.
-- Red teaming vs. blue teaming in social engineering scenarios.
+3. **[Best Practices](Best-Practices/)**  
+   - Checklists for securing personal and organizational information.  
+   - Strategies to reduce exposure to social engineering and OSINT attacks.
 
 ---
 
 ## 📚 External and Additional References
 
-### **Books**
-- [The Art of Deception](https://www.amazon.com/Art-Deception-Controlling-Element-Security/dp/0471237124) by Kevin Mitnick.
-- [Social Engineering: The Science of Human Hacking](https://www.amazon.com/Social-Engineering-Science-Human-Hacking/dp/111943338X) by Christopher Hadnagy.
-- [No Tech Hacking](https://www.amazon.com/No-Tech-Hacking-Social-Engineering/dp/1597492159) by Johnny Long.
-
 ### **Websites and Blogs**
 - [Social-Engineer.org](https://www.social-engineer.org): A comprehensive resource for social engineering news, tools, and techniques.
 - [The Hacker News](https://thehackernews.com): Regular updates on cybersecurity, including social engineering trends.
-- [OWASP Social Engineering Framework](https://owasp.org/www-project-social-engineering-framework/): Detailed guidelines for understanding and mitigating social engineering attacks.
 
 ### **Videos and Podcasts**
 - [DEF CON Talks](https://www.youtube.com/user/DEFCONConference): Insights from cybersecurity experts, including social engineering case studies.
 - [Darknet Diaries](https://darknetdiaries.com): Stories about hackers, breaches, and social engineering attacks.
 - [Social-Engineer Podcast](https://www.social-engineer.org/podcast/): Interviews with experts in the field.
 
-### **Tools**
+### **Additional Tools**
 - [Gophish](https://getgophish.com): Open-source phishing simulation tool.
-- [TheHarvester](https://github.com/laramies/theHarvester): A tool for gathering OSINT to simulate reconnaissance.
 - [SET (Social-Engineer Toolkit)](https://github.com/trustedsec/social-engineer-toolkit): A framework for penetration testing and social engineering attacks.
 
 ---
@@ -91,7 +62,19 @@ Social engineering attacks exploit human behavior and trust to gain unauthorized
 ```bash
    git clone https://github.com/yourusername/Security-Awareness-and-Social-Engineering.git
 ```
-- Make sure to update the documentation and add any new tools or resources.
+- Make your changes and add new resources
+- Add the changes
+```bash
+   git add .
+```
+- Commit the changes
+```bash
+   git commit -m "Your commit message"
+```
+- Push the changes
+```bash
+   git push origin your-branch
+```
 - Submit a pull request with a clear description of your changes.
 - We will review and merge your contributions once they meet our guidelines.
 
